@@ -1,12 +1,12 @@
-#你恰好发现了 Keras
-Keras 是一个用 Python 编写的高级神经网络 API，它能够以 TensorFlow, CNTK, 或者 Theano 作为后端运行。
+#你恰好发现了 Keras  
+Keras 是一个用 Python 编写的高级神经网络 API，它能够以 TensorFlow, CNTK, 或者 Theano 作为后端运行。  
 ##指导原则
 1. 用户友好
 2. 模块化
 3. 易扩展性
 4. 基于 Python 实现
 
-##30 秒上手 Keras
+##30 秒上手 Keras  
 Keras 的核心数据结构是 model，一种组织网络层的方式。最**简单的模型**是 `Sequential 顺序模型`，它由多个网络层线性堆叠。对于更复杂的结构，应该使用 `Keras 函数式 API`，它允许构建任意的神经网络图。  
 Sequential 模型如下所示：  
 
